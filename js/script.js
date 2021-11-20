@@ -28,7 +28,7 @@ for(let i = 0; i < cards.length; i++) {
             var result = this.dataset.item;
             resultsArray.push(result);
             console.log(resultsArray)
-            //clearInterval(interval);
+            clearInterval(interval);
             interval = setInterval(startTimer, 10);
         }
 
